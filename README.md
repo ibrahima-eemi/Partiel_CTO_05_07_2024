@@ -21,6 +21,19 @@ This project is a web application for managing members of a sport association. I
   - [GitHub Actions](#github-actions)
   - [Setting Up CI/CD](#setting-up-cicd)
 - [Project Structure](#project-structure)
+- [Audit des Besoins Techniques](#audit-des-besoins-techniques)
+  - [Identification des Contraintes Techniques et des Exigences Spécifiques](#identification-des-contraintes-techniques-et-des-exigences-spécifiques)
+  - [Évaluation des Risques](#évaluation-des-risques)
+  - [Solutions Existantes et Critères](#solutions-existantes-et-critères)
+- [Analyse et Recommandations](#analyse-et-recommandations)
+  - [Analyse Data et Fonctionnelle](#analyse-data-et-fonctionnelle)
+  - [Analyse Système et Infrastructure](#analyse-système-et-infrastructure)
+  - [Analyse Sécurité](#analyse-sécurité)
+- [Documentation du Processus de Développement](#documentation-du-processus-de-développement)
+  - [Suivi du Projet et des Versions](#suivi-du-projet-et-des-versions)
+  - [Documentation du Code](#documentation-du-code)
+  - [Gestion des Dépendances](#gestion-des-dépendances)
+  - [Sécurité et Gestion des Secrets](#sécurité-et-gestion-des-secrets)
 
 ## Features
 ### Backend
