@@ -1,3 +1,4 @@
+# backend/crud.py
 from sqlalchemy.orm import Session
 from . import models, schemas
 import logging
@@ -24,7 +25,7 @@ def create_member(db: Session, member: schemas.MemberCreate):
         db.add(db_member)
         db.commit()
         db.refresh(db_member)
-        logging.info(f"Created member: {db_member}")
+        logging.info(f"Created member: {db_member.id}, name: {db_member.name}, age: {db_member.age}, contact: {db_member.contact}, category: {db_member.category}, level: {db_member.level}")
         return db_member
     except Exception as e:
         logging.error(f"Error creating member: {e}")
